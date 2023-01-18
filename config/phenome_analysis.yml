@@ -1,0 +1,7 @@
+# Configuration to specify the phenotypes and covariates to analyse 
+name: "default-config"
+analysis:
+  - phenotypes:
+      params:
+        traits: ["abBMD"]
+        covariates: ["abBMD", "SW16"]

@@ -28,7 +28,7 @@ The phenome_analysis.yml config file in this test case focuses on traits and cov
 ## Run pipeline
 Run whole pipeline with:
 ```
-./gretel.sh
+./src/gretel.sh
 ```
 
 or run each module individually:
@@ -39,3 +39,5 @@ python src/03_create_synthetic_genomes.py
 python src/04_build_synthetic_genomes.py
 ```
 
+# Remarks
+The goal of this repo was to create an easy-to-use interface for gretel-ai. My idea was to create such interface as a sequential call of the different steps for creating synthetic phenome and genome data. The user would be able to supply phenotype and model configuration parameters through json files. The pipeline itself is already written in several study cases provided by gretel-ai. Unfortunately I could not test the idea, as I run out of the free credits needed to run gretel. 

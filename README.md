@@ -6,7 +6,7 @@ The pipeline collects the source code from [gretelai/synthetic data genomics](ht
 The following shows how to use it on a test case.
 
 ## Installation
-Create and activate a conda environment:
+Clone the repository; ceate and activate a conda environment:
 ```
 conda env create -n gretel -f env/gretel_env.yaml
 conda activate gretel
@@ -20,7 +20,7 @@ Download mouse example data:
 ```
 
 ## Prepare configuration files
-Two files are needed: 'config/phenome_analysis.yml' specifies the phenotypes and covariates you want to analyse; and 'config/model_params.yml' specifies the model parameters.
+Two files are needed: 'config/phenome_analysis.yml' specifies the phenotypes and covariates you want to analyse; and 'config/model_params.yml' specifies the model parameters. The names and location of these files should not be modified.
 
 
 The phenome_analysis.yml config file in this test case focuses on traits and covariates studied in this [paper](https://doi.org/10.1038/ng.3609). The user could choose between several traits: 'TA', 'SW16', 'tibia', 'EDL', 'soleus', 'plantaris', 'gastroc', 'SW6', 'sacweight', 'BMD', 'abBMD'.
